@@ -27,7 +27,7 @@ object Collect_list_Obj {
       .getOrCreate()
 
     val df2 = spark.read.format("json").option("multiline","true")
-      .load("file:///D:/data/out1/zeyoc.json")
+      .load("file:///D:/data/out1/data1.json")
     df2.show(5)
     df2.printSchema()
     val flattendf = df2.withColumn("students", expr("explode(students)"))
