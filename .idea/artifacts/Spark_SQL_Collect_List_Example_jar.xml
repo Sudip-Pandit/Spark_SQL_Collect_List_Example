@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Spark_SQL_Collect_List_Example:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spark_SQL_Collect_List_Example_jar</output-path>
+    <root id="archive" name="Spark_SQL_Collect_List_Example.jar">
+      <element id="module-output" name="Spark_SQL_Collect_List_Example" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
